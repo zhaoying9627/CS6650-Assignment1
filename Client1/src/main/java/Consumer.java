@@ -79,6 +79,9 @@ public class Consumer implements Runnable {
         System.out.println("The number of threads used to send requests is " + numOfProducer + ".");
         System.out.println("The response time for single request is 28ms." );
         System.out.println("The Little’s Law prediction throughput in requests per second is 7142.");
+        // output for springboot server
+//        System.out.println("The response time for single request is 60ms." );
+//        System.out.println("The Little’s Law prediction throughput in requests per second is 3333.");
         System.out.println("The number of successful requests sent is " + consumer.getSuccessfulCount() + ".");
         System.out.println("The number of unsuccessful requests is " + consumer.getFailCount() + ".");
         System.out.println("The total run (wall) time is " + duration + " seconds.");

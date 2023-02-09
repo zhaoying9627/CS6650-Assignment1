@@ -24,6 +24,8 @@ public class ClientProducer implements Runnable {
     private int requestsNum;
 
     private final String BASE_PATH = "http://35.90.13.127:8080/Assignment1_war";
+    // url for springboot server
+//    private final String BASE_PATH = "http://twinderserver-env.eba-rkzjpx2i.us-west-2.elasticbeanstalk.com";
 
     public ClientProducer(BlockingQueue<String> q, CountDownLatch countDownLatch, int requestsNum) {
         this.buffer = q;
